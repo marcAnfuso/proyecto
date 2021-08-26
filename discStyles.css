@@ -358,8 +358,10 @@ footer {
 }
 
 
-@media screen and (max-width: 480px) {
-
+@media screen and (max-width: 580px) {
+    body {
+        width: 100%;
+    }
     .barNav {
         display: grid;
         max-width: 90%;
