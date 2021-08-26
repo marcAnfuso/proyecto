@@ -154,6 +154,11 @@ main section div{
     background-image: linear-gradient(to left, rgb(25, 25, 70), rgb(2, 2, 26), black);
 }
 
+.infoColi ul{
+    color: white;
+    font-size: 1rem;
+    border: white solid 1px;
+}
 /* Fotos del main */
 
 .imageCircus img{
