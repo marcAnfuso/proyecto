@@ -316,7 +316,9 @@ footer ul li:hover{
 
 
 @media screen and (max-width: 490px) {
-
+    body {
+        width: 100%;
+    }
     .barNav {
         display: grid;
         max-width: 100%;
