@@ -225,7 +225,9 @@ footer ul li:hover a{
 /* responsive */
 
 @media screen and (max-width:500px) {
-
+    body {
+        width: 100%;
+    }
     .navbar__lista {
         display: flex;
         flex-direction: column;
