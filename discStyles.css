@@ -418,6 +418,10 @@ footer {
     .divDisc {
         padding-top: 20px;
     }
+
+    #container img {
+        width: 70%;
+    }
 }
 
 /* Generales para usar */
