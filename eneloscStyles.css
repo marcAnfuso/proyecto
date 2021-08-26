@@ -243,7 +243,7 @@ footer ul li:hover a{
     body {
         width: 100%;
     }
-    
+
     .sectUno__block1 img {
         max-width: 70%;
     }
@@ -257,6 +257,20 @@ footer ul li:hover a{
         align-items: center;
     }
 
+    .footerDisc3 {
+        height: 300px;
+    }
+    .footerDisc3 ul{
+        display: flex;
+        flex-direction: column;
+    }
 
+    footer, .main, .header, .accordion-header button {
+        background-image: linear-gradient(to right,black, rgb(63, 13, 13), rgb(95,7,7), rgb(75,33,33), black);
+    }
+
+    .accordion {
+        margin-bottom: 15px;
+    }
 
 }

@@ -228,10 +228,6 @@ footer ul li:hover a{
     body {
         width: 100%;
     }
-    .navbar__lista {
-        display: flex;
-        flex-direction: column;
-    }
     .sectUno__block1 img {
         max-width: 70%;
     }
@@ -275,10 +271,6 @@ footer ul li:hover a{
 
 @media screen and (max-width:900px) {
 
-    .navbar__lista {
-        display: flex;
-        flex-direction: column;
-    }
     .sectUno__block1 img {
         max-width: 70%;
     }
