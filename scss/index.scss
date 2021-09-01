@@ -178,7 +178,7 @@ main div img{
 
 footer {
     background-image: linear-gradient(to left, rgb(25, 25, 70), rgb(2, 2, 26), black);
-    height: 100px;
+    height: 130px;
 }
 
 footer ul{
@@ -201,6 +201,13 @@ footer ul li{
 footer ul li p {
     color: white;
 }
+
+.footer__copyright {
+    text-align: center;
+    padding-top: 1rem;
+    color: white;
+}
+
 
 /* Hover en el footer */
 

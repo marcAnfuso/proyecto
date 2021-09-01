@@ -140,7 +140,7 @@ main div img {
 /* Footer */
 footer {
   background-image: linear-gradient(to left, #191946, #02021a, black);
-  height: 100px; }
+  height: 130px; }
 
 footer ul {
   display: flex;
@@ -157,6 +157,11 @@ footer ul li {
   text-align: center; }
 
 footer ul li p {
+  color: white; }
+
+.footer__copyright {
+  text-align: center;
+  padding-top: 1rem;
   color: white; }
 
 /* Hover en el footer */
