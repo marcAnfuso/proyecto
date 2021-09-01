@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5 {
 
 .header {
     border-bottom: black solid;
-    background-image: linear-gradient(to right,black, rgb(63, 13, 13), rgb(95,7,7), rgb(75,33,33), black);
+    background-image: linear-gradient(to right,black, rgb(32, 30, 30),rgb(141,141,141),black,black);
     right: 20;
     width: 100%;
     border-bottom: white solid 0.25em;
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .header li:hover a{
-    color: black;
+    color: rgb(147,27,27);
 }
 
 /* clase flex row */
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* main, contenedor principal */ 
 
 .main {
-    background-image: linear-gradient(to right,black, rgb(63, 13, 13), rgb(95,7,7), rgb(75,33,33), black);
+    background-image: linear-gradient(to right,black, rgb(32, 30, 30),rgb(141,141,141),black,black);
     display: flex;
     flex-direction: column;
     justify-content:space-around;
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .sectUno__integrantes p {
-    color: grey;
+    color: rgb(147,27,27);
     font-weight: 300;
 }
 
@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .sectUno__discos li:hover a {
-    color: black;
+    color: rgb(147,27,27);
 }
 
 /* sect Dos */
@@ -176,29 +176,29 @@ h1, h2, h3, h4, h5 {
 }
 
 .accordion-body {
-    background-color: rgb(63, 13, 13);
+    background-color: rgb(141,141,141);
     max-height: 20rem;
     overflow: scroll;
 }
 
 .accordion-header button {
-    background-image: linear-gradient(to right, rgb(63, 13, 13), rgb(95,7,7), rgb(75,33,33));
+    background-image: linear-gradient(to right, rgb(32, 30, 30),rgb(141,141,141));
     color: white;
 }
 
 .accordion-body p {
-    color: white;
+    color: black;
 }
 
 .accordion-button:hover {
-    color: black;
+    color: rgb(147,27,27);
 }
 
 
 /* footer */
 
 footer {
-    background-image: linear-gradient(to right,black, rgb(63, 13, 13), rgb(95,7,7), rgb(75,33,33), black);
+    background-image: linear-gradient(to right,black, rgb(32, 30, 30),rgb(141,141,141),black,black);
     height: 100px;
     border-top: white solid 0.25em;
 }
@@ -231,7 +231,7 @@ footer ul li:hover{
 }
 
 footer ul li:hover a{
-    color: black;
+    color: rgb(147,27,27);
 }
 
 
@@ -239,14 +239,24 @@ footer ul li:hover a{
 
 /* responsive */
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:1000px) {
     body {
         width: 100%;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
     }
 
     .sectUno__block1 img {
         max-width: 70%;
     }
+
+    .navbar li a {
+        font-size: 2rem;
+    }
+
 
     .sectores {
         flex-wrap: wrap;
@@ -256,7 +266,6 @@ footer ul li:hover a{
         flex-direction: column;
         align-items: center;
     }
-
     .footerDisc3 {
         height: 300px;
     }
@@ -265,12 +274,15 @@ footer ul li:hover a{
         flex-direction: column;
     }
 
-    footer, .main, .header, .accordion-header button {
-        background-image: linear-gradient(to right,black, rgb(63, 13, 13), rgb(95,7,7), rgb(75,33,33), black);
+    footer, .main, .header {
+        background-image: linear-gradient(to right,black, rgb(32, 30, 30),rgb(141,141,141),black);
+    }
+    .accordion-header button {
+        background-image: linear-gradient(to right, rgb(32, 30, 30),rgb(141,141,141));
+
     }
 
     .accordion {
         margin-bottom: 15px;
     }
-
 }

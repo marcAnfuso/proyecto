@@ -224,7 +224,7 @@ footer ul li:hover a{
 
 /* responsive */
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:1000px) {
     body {
         width: 100%;
     }
@@ -232,6 +232,15 @@ footer ul li:hover a{
         max-width: 70%;
     }
 
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar li a {
+        font-size: 2rem;
+    }
+
     .sectores {
         flex-wrap: wrap;
     }
@@ -269,45 +278,3 @@ footer ul li:hover a{
     }
 }
 
-@media screen and (max-width:900px) {
-
-    .sectUno__block1 img {
-        max-width: 70%;
-    }
-
-    .sectores {
-        flex-wrap: wrap;
-    }
-
-    .sectUno__discos li {
-        width: 250px;
-    }
-
-    .sectUno__block2 {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .sectDos {
-        width: 100%;
-        text-align: center;
-    }
-    .accordion {
-        padding-bottom: 20px;
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .accordion-body {
-        width: 100%;
-    }
-
-    .footerDisc3 {
-        min-height: 300px;
-    }
-
-    .footerDisc3 ul {
-        display: flex;
-        flex-direction: column;
-    }
-}
